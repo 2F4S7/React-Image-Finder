@@ -1,40 +1,37 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
-class Searchbar extends Component {
-  state = {
-    query: '',
+export default class SearchBar extends Component {
+  state = { value: '' };
+
+  handleChange = e => {
+    this.setState({ value: e.currentTarget.value });
   };
 
   handleSubmit = e => {
     e.preventDefault();
-    this.props.onSubmit(this.state.query);
-    this.setState({ query: '' });
-  };
 
-  handleChange = ({ target: { value, name } }) => {
-    this.setState({ [name]: value });
+    this.props.changeQuery(this.state.value);
+    this.setState({ value: '' });
   };
 
   render() {
     return (
-      <header className="Searchbar">
+      <header className="Searchbar" onSubmit={this.handleSubmit}>
         <form className="SearchForm">
           <button type="submit" className="SearchForm-button">
             <span className="SearchForm-button-label">Search</span>
           </button>
-
           <input
             className="SearchForm-input"
             type="text"
-            autocomplete="off"
-            autofocus
+            autoComplete="off"
+            autoFocus
             placeholder="Search images and photos"
+            value={this.state.value}
+            onChange={this.handleChange}
           />
         </form>
       </header>
     );
   }
 }
-
-export default Searchbar;

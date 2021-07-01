@@ -205,3 +205,13 @@ img {
 .Button:focus {
   background-color: #303f9f;
 }
+
+.button-conteiner {
+  margin: 10px;
+  text-align: center;
+}
+
+.spinner-conteiner {
+  text-align: center;
+
+}

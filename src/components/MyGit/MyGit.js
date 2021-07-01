@@ -1,9 +1,9 @@
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import style from './btn.module.css';
+import style from './MyGit.module.css';
 
-const Btn = ({ title, button }) => {
+const MyGit = ({ title, button }) => {
   return (
     <header className={style.head}>
       <h1 className={style.title}>{title}</h1>
@@ -20,4 +20,4 @@ const Btn = ({ title, button }) => {
   );
 };
 
-export default Btn;
+export default MyGit;
