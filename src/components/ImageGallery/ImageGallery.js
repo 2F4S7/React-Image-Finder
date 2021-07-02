@@ -9,7 +9,7 @@ const ImageGallery = ({ images, openModal }) => {
       {images.map(({ id, webformatURL, tags, largeImageURL }) => {
         return (
           <li
-            className={styles.ImageGalleryItem}
+            className={ImageGalleryItem}
             key={id}
             onClick={() => {
               openModal(largeImageURL, tags);
