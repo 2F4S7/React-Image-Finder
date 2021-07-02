@@ -1,13 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ImageGalleryItem from '../ImageGalleryItem';
+import styles from './ImageGallery.module.css';
 
 const ImageGallery = ({ images, openModal }) => {
   return (
-    <ul className="ImageGallery">
+    <ul className={styles.ImageGallery}>
       {images.map(({ id, webformatURL, tags, largeImageURL }) => {
         return (
           <li
-            className="ImageGalleryItem"
+            className={styles.ImageGalleryItem}
             key={id}
             onClick={() => {
               openModal(largeImageURL, tags);
@@ -19,6 +21,10 @@ const ImageGallery = ({ images, openModal }) => {
       })}
     </ul>
   );
+};
+
+ImageGallery.propTypes = {
+  images: PropTypes.arrayOf(PropTypes.shape).isRequired,
 };
 
 export default ImageGallery;
