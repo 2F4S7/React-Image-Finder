@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/2F4S7/React-Image-Finder/static/css/main.bcc858df.chunk.css",
-    "main.js": "/2F4S7/React-Image-Finder/static/js/main.3047fa79.chunk.js",
-    "main.js.map": "/2F4S7/React-Image-Finder/static/js/main.3047fa79.chunk.js.map",
-    "runtime-main.js": "/2F4S7/React-Image-Finder/static/js/runtime-main.70fdb9c9.js",
-    "runtime-main.js.map": "/2F4S7/React-Image-Finder/static/js/runtime-main.70fdb9c9.js.map",
-    "static/css/2.3bd2a829.chunk.css": "/2F4S7/React-Image-Finder/static/css/2.3bd2a829.chunk.css",
-    "static/js/2.85cb10f1.chunk.js": "/2F4S7/React-Image-Finder/static/js/2.85cb10f1.chunk.js",
-    "static/js/2.85cb10f1.chunk.js.map": "/2F4S7/React-Image-Finder/static/js/2.85cb10f1.chunk.js.map",
-    "static/js/3.75988ab1.chunk.js": "/2F4S7/React-Image-Finder/static/js/3.75988ab1.chunk.js",
-    "static/js/3.75988ab1.chunk.js.map": "/2F4S7/React-Image-Finder/static/js/3.75988ab1.chunk.js.map",
-    "index.html": "/2F4S7/React-Image-Finder/index.html",
-    "static/css/2.3bd2a829.chunk.css.map": "/2F4S7/React-Image-Finder/static/css/2.3bd2a829.chunk.css.map",
-    "static/css/main.bcc858df.chunk.css.map": "/2F4S7/React-Image-Finder/static/css/main.bcc858df.chunk.css.map",
-    "static/js/2.85cb10f1.chunk.js.LICENSE.txt": "/2F4S7/React-Image-Finder/static/js/2.85cb10f1.chunk.js.LICENSE.txt"
+    "main.css": "/React-Image-Finder/static/css/main.bcc858df.chunk.css",
+    "main.js": "/React-Image-Finder/static/js/main.84152e47.chunk.js",
+    "main.js.map": "/React-Image-Finder/static/js/main.84152e47.chunk.js.map",
+    "runtime-main.js": "/React-Image-Finder/static/js/runtime-main.39339c1e.js",
+    "runtime-main.js.map": "/React-Image-Finder/static/js/runtime-main.39339c1e.js.map",
+    "static/css/2.3bd2a829.chunk.css": "/React-Image-Finder/static/css/2.3bd2a829.chunk.css",
+    "static/js/2.1dbc033c.chunk.js": "/React-Image-Finder/static/js/2.1dbc033c.chunk.js",
+    "static/js/2.1dbc033c.chunk.js.map": "/React-Image-Finder/static/js/2.1dbc033c.chunk.js.map",
+    "static/js/3.b2f7f05d.chunk.js": "/React-Image-Finder/static/js/3.b2f7f05d.chunk.js",
+    "static/js/3.b2f7f05d.chunk.js.map": "/React-Image-Finder/static/js/3.b2f7f05d.chunk.js.map",
+    "index.html": "/React-Image-Finder/index.html",
+    "static/css/2.3bd2a829.chunk.css.map": "/React-Image-Finder/static/css/2.3bd2a829.chunk.css.map",
+    "static/css/main.bcc858df.chunk.css.map": "/React-Image-Finder/static/css/main.bcc858df.chunk.css.map",
+    "static/js/2.1dbc033c.chunk.js.LICENSE.txt": "/React-Image-Finder/static/js/2.1dbc033c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.70fdb9c9.js",
+    "static/js/runtime-main.39339c1e.js",
     "static/css/2.3bd2a829.chunk.css",
-    "static/js/2.85cb10f1.chunk.js",
+    "static/js/2.1dbc033c.chunk.js",
     "static/css/main.bcc858df.chunk.css",
-    "static/js/main.3047fa79.chunk.js"
+    "static/js/main.84152e47.chunk.js"
   ]
 }
