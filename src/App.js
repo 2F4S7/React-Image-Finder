@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import './styles.css';
 import ImageGallery from './components/ImageGallery';
 import fetchData from './services/api';
-import MyGit from './components/MyGit/MyGit';
 import SearchBar from './components/SearchBar';
 import Modal from './components/Modal';
 import Button from './components/Button';
@@ -84,7 +83,6 @@ class App extends Component {
 
     return (
       <>
-        {/* <MyGit title="React Image Finder" /> */}
         <SearchBar changeQuery={this.onChangeQuery} />
         {error && (
           <h1 style={{ color: '#ff0000', textAlign: 'center' }}>
