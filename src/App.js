@@ -84,7 +84,7 @@ class App extends Component {
 
     return (
       <>
-        <MyGit title="React Image Finder" />
+        {/* <MyGit title="React Image Finder" /> */}
         <SearchBar changeQuery={this.onChangeQuery} />
         {error && (
           <h1 style={{ color: '#ff0000', textAlign: 'center' }}>
